@@ -1,0 +1,76 @@
+name: Shared website pipeline
+on:
+  workflow_call:
+    inputs:
+      regenerate:
+        description: Specific case filename to regenerate
+        type: string
+        default: ''
+    secrets:
+      OPENAI_API_KEY:
+        required: false
+concurrency:
+  group: felmenon2-production
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.repository == 'felisa-code/felmenon2'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install fixed build dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify maintenance behavior
+        run: python -m unittest discover -s tests -v
+      - name: Update case captions
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5-mini' }}
+          REGENERATE_FILE: ${{ inputs.regenerate }}
+          MAX_AI_IMAGES: '20'
+        run: python scripts/cases.py
+      - name: Build catalog with last-good fallback
+        run: python scripts/catalog.py
+      - name: Validate the public source
+        run: python scripts/validate.py
+      - name: Save generated data in this repository only
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/cases.json data/catalog.json catalog-pages
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update generated cases and catalog'
+            git push origin HEAD:main
+          fi
+      - name: Prepare Pages artifact
+        run: python scripts/package_site.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Publish felmenon2
+        id: deployment
+        uses: actions/deploy-pages@v4

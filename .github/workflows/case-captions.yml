@@ -1,0 +1,23 @@
+name: Update case photos
+on:
+  push:
+    branches: [main]
+    paths: ['cases/**']
+  workflow_dispatch:
+    inputs:
+      regenerate:
+        description: '重新生成的檔名（含 cases 下的子路徑）；留空只補待處理照片。指定檔名會覆寫該張人工文案。'
+        type: string
+        required: false
+        default: ''
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  website:
+    uses: ./.github/workflows/pipeline.yml
+    with:
+      regenerate: ${{ inputs.regenerate || '' }}
+    secrets:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
