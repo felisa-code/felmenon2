@@ -6,7 +6,11 @@ def validate(root=ROOT):
     html=(root/'index.html').read_text()
     assert '音樂由您決定何時播放。' not in html
     assert '展示頁初版' not in html
-    assert '從空間美學走入品牌故事。〈以靜成就非凡〉邀請您在了解產品與案例之後，細細感受菲米諾的品牌理念。' in html
+    # Validate the section structure without freezing editable brand copy.
+    music = re.search(r'<section\b[^>]*\bid="music"[^>]*>(.*?)</section>', html, re.S)
+    assert music, 'Missing brand section'
+    assert re.search(r'<h2\b[^>]*>\s*\S', music.group(1)), 'Missing brand section heading'
+    assert re.search(r'<audio\b', music.group(1)), 'Missing brand song player'
     assert not re.search(r'<audio[^>]*autoplay',html)
     for url in ['https://www.acasa.com.tw/','https://page.line.me/acasa','https://www.facebook.com/Felmenon.tw/','https://www.instagram.com/felmenon.tw/','https://www.youtube.com/@FelmenonTW']:
         assert url in html,url
