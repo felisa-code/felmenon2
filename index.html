@@ -9,6 +9,21 @@
 <link rel="stylesheet" href="assets/site.css">
 <script defer src="vendor/page-flip/page-flip.browser.js"></script>
 <script defer src="assets/site.js"></script>
+<style>
+.about-section{grid-template-columns:148px minmax(0,1fr);gap:24px;align-items:start}
+.about-section .music-art{padding:12px;border-radius:16px}
+.about-section .music-art img{max-height:136px}
+.about-section .music-content h2{font-size:26px;margin:0 0 12px}
+.about-section .music-content>p{margin:0 0 18px}
+.about-song{border-top:1px solid var(--line);padding-top:16px}
+.about-song h3{font-size:18px;line-height:1.5;margin:0 0 6px}
+.about-song p{font-size:14px;margin:0 0 12px}
+@media(max-width:720px){
+  .about-section{grid-template-columns:minmax(0,1fr);gap:16px}
+  .about-section .music-art{width:116px;max-width:100%;margin:0}
+  .about-section .music-content h2{font-size:24px}
+}
+</style>
 </head>
 <body>
   <header class="topbar">
@@ -24,7 +39,7 @@
       <nav class="nav-links" aria-label="主要導覽">
         <a href="#catalog">型錄翻閱</a>
         <a href="#cases">案例照</a>
-        <a href="#music">形象歌曲</a>
+        <a href="#music">關於菲米諾</a>
         <a href="#social">官方連結</a>
       </nav>
 
@@ -39,7 +54,7 @@
     <button id="closeDrawer">關閉選單</button>
     <a href="#catalog">型錄翻閱</a>
     <a href="#cases">案例照</a>
-    <a href="#music">形象歌曲</a>
+    <a href="#music">關於菲米諾</a>
     <a href="#social">官方連結</a>
   </aside>
 
@@ -156,17 +171,20 @@
       </div>
       <nav class="case-thumbnails" id="caseThumbnails" aria-label="案例縮圖導覽" hidden></nav><p id="caseError" role="status" hidden>案例暫時無法載入，請稍後重新整理。</p><noscript>請開啟 JavaScript 以瀏覽案例照片。</noscript></div></section>
 
-  <section class="section" id="music">
-    <div class="section-card music-section">
+  <section class="section" id="music" aria-labelledby="aboutTitle">
+    <div class="section-card music-section about-section">
       <div class="music-art"><img src="assets/logo-vertical.jpg" alt="菲米諾吸音板 Logo" /></div>
       <div class="music-content">
-        <div class="pill" style="display:inline-flex;margin-bottom:10px">品牌形象歌曲</div>
-        <h2>以靜成就非凡</h2>
-        <p>從空間美學走入品牌故事。〈以靜成就非凡〉邀請您在了解產品與案例之後，細細感受菲米諾的品牌理念。</p>
-        <audio controls preload="none" aria-label="菲米諾品牌形象歌曲：以靜成就非凡">
-          <source src="assets/brand-song.mp3" type="audio/mpeg" />
-          您的瀏覽器不支援音訊播放，可<a href="assets/brand-song.mp3">開啟音樂檔案</a>。
-        </audio>
+        <h2 id="aboutTitle">關於菲米諾</h2>
+        <p>菲米諾是旭利興有限公司旗下的吸音板品牌，以「美感 × 機能 × 靜音」為核心，將色彩、紋理與吸音機能融入空間，為生活創造舒適與從容。</p>
+        <div class="about-song" aria-labelledby="brandSongTitle">
+          <h3 id="brandSongTitle">品牌形象歌曲｜以靜成就非凡</h3>
+          <p>邀請您隨著旋律，感受安靜為生活帶來的從容與美好。</p>
+          <audio controls preload="none" aria-label="菲米諾品牌形象歌曲：以靜成就非凡">
+            <source src="assets/brand-song.mp3" type="audio/mpeg" />
+            您的瀏覽器不支援音訊播放，可<a href="assets/brand-song.mp3">開啟音樂檔案</a>。
+          </audio>
+        </div>
       </div>
     </div>
   </section>
