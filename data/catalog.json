@@ -1,0 +1,428 @@
+{
+  "version": "daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f",
+  "pageCount": 60,
+  "pdfPageCount": 30,
+  "pdf": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/catalog.pdf",
+  "pages": [
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-001.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 1,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-002.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 1,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-003.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 2,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-004.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 2,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-005.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 3,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-006.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 3,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-007.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 4,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-008.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 4,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-009.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 5,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-010.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 5,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-011.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 6,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-012.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 6,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-013.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 7,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-014.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 7,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-015.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 8,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-016.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 8,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-017.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 9,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-018.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 9,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-019.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 10,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-020.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 10,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-021.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 11,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-022.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 11,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-023.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 12,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-024.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 12,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-025.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 13,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-026.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 13,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-027.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 14,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-028.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 14,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-029.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 15,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-030.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 15,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-031.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 16,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-032.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 16,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-033.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 17,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-034.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 17,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-035.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 18,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-036.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 18,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-037.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 19,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-038.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 19,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-039.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 20,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-040.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 20,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-041.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 21,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-042.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 21,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-043.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 22,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-044.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 22,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-045.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 23,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-046.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 23,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-047.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 24,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-048.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 24,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-049.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 25,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-050.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 25,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-051.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 26,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-052.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 26,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-053.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 27,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-054.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 27,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-055.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 28,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-056.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 28,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-057.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 29,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-058.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 29,
+      "part": 2
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-059.jpg",
+      "width": 990,
+      "height": 1400,
+      "pdfPage": 30,
+      "part": 1
+    },
+    {
+      "file": "catalog-pages/daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f/page-060.jpg",
+      "width": 991,
+      "height": 1400,
+      "pdfPage": 30,
+      "part": 2
+    }
+  ]
+}
