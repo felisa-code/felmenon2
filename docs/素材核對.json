@@ -1,0 +1,75 @@
+[
+  {
+    "file": "assets/logo-vertical.jpg",
+    "bytes": 79856,
+    "sha256": "fec67c55bd1623d3ba3d20468dc1d515583d5c9b48cb0201cea5a4d620eb2515"
+  },
+  {
+    "file": "assets/logo-horizontal.jpg",
+    "bytes": 71447,
+    "sha256": "6783afbe91a269dd953e4f6fe10b54e2086afd64b8830014962a6278b963449e"
+  },
+  {
+    "file": "catalog.pdf",
+    "bytes": 16110931,
+    "sha256": "daebdea555b6b28f131fa1ba9ea4617c7e61b1fd827e7eaf114b5d705b621f7f"
+  },
+  {
+    "file": "cases/case5.jpg",
+    "bytes": 396357,
+    "sha256": "eb1160b2f424e0e1b7c9057325200934990ffdf0e8246debc819ecb1666e0e3e"
+  },
+  {
+    "file": "cases/case7.jpg",
+    "bytes": 474379,
+    "sha256": "4dfa120713aee390756d8c24b69dcd75ad7b6a92e079fc233862de01c8e42534"
+  },
+  {
+    "file": "cases/case4.jpg",
+    "bytes": 415944,
+    "sha256": "a9d66fab01646ffbd1e4a8252af1587aabd78b818b7c372d3bc73c03d90ee061"
+  },
+  {
+    "file": "cases/case3.jpg",
+    "bytes": 614339,
+    "sha256": "ef8905c9214c4545e83d1c5e0b2418ad4f04a610c8d95eb3f3d4a8a561c117de"
+  },
+  {
+    "file": "cases/case1.jpg",
+    "bytes": 507061,
+    "sha256": "9125dc6906ddc893d49bd708c76833845260f77cfde82fe372a5e9cc638a3d15"
+  },
+  {
+    "file": "assets/brand-song.mp3",
+    "bytes": 6483210,
+    "sha256": "b20f7f934782b2f2c9ec2367268d3c71d0d17518333e63d8f20cb6ebf4593ce1"
+  },
+  {
+    "file": "cases/case6.jpg",
+    "bytes": 620771,
+    "sha256": "f9db1b1a4141fc32e2b0c8b980ace2e962a343d3ee4eff9884ff1f0c4c74dc01"
+  },
+  {
+    "file": "cases/case2.jpg",
+    "bytes": 393162,
+    "sha256": "413649a09cbd5c0cb717ea44b57d57b80fdc256fbb18e45797e783ef9fddce32"
+  },
+  {
+    "file": "cases/case8.jpg",
+    "bytes": 184248,
+    "sha256": "80d610a5492fe0e526ee01d130e730de348474401d79da47493e4564a0386380",
+    "added": "2026-11-01 user attachment"
+  },
+  {
+    "file": "cases/case9.png",
+    "bytes": 2934624,
+    "sha256": "682b89bd79620e99824e48b77cd21a43f611577ed86230a0d044a8a39b611463",
+    "added": "2026-11-01 user attachment"
+  },
+  {
+    "file": "cases/case10.jpg",
+    "bytes": 944171,
+    "sha256": "1090ca24a085f975aac201c50e82964d4c20eb12677303d9a013631f8d0a4e65",
+    "added": "2026-11-01 user attachment"
+  }
+]
