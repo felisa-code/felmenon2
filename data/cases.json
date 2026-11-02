@@ -115,18 +115,5 @@
     "sha256": "682b89bd79620e99824e48b77cd21a43f611577ed86230a0d044a8a39b611463",
     "visible": true,
     "summary": "青綠幾何主牆 × 色彩設計示意"
-  },
-  {
-    "file": "case10.jpg",
-    "title": "紫韻展示",
-    "description": "紫色塊面與淺色線條牆交錯，串聯色樣展示、桌席與沙發區的設計示意。",
-    "alt": "體驗室設計示意，紫色牆面與木色格柵搭配黑色展示架、灰色沙發及色樣。",
-    "source": "GPT collaboration from user-provided image",
-    "locked": true,
-    "manual": true,
-    "status": "ready",
-    "sha256": "1090ca24a085f975aac201c50e82964d4c20eb12677303d9a013631f8d0a4e65",
-    "visible": false,
-    "summary": "紫色拼接 × 體驗室設計示意"
   }
 ]
